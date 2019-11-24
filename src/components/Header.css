@@ -1,0 +1,15 @@
+#header {
+	color: white;
+	text-align: center;
+	font-family: "Gill Sans", sans-serif;
+	letter-spacing: 8px;
+}
+
+.glow {
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	-webkit-animation: glow 30s ease-in-out infinite alternate;
+	-moz-animation: glow 30s ease-in-out infinite alternate;
+	animation: glow 30s ease-in-out infinite alternate;
+}
