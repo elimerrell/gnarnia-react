@@ -1,3 +1,9 @@
-language: node_js
-node_js:
-- 12
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t emerrell/gnarnia-react -f Dockerfile.dev .
+
+script:
+  - docker run emerrell/docker-react npm run test -- --coverage
