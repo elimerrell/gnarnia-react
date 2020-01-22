@@ -6,4 +6,4 @@ before_install:
   - docker build -t emerrell/gnarnia-react -f Dockerfile.dev .
 
 script:
-  - docker run emerrell/docker-react npm run test -- --coverage
+  - docker run emerrell/gnarnia-react npm run test -- --coverage
