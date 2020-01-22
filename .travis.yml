@@ -1,10 +1,3 @@
 language: node_js
 node_js:
 - 12
-deploy:
-  provider: heroku
-  api_key:
-    secure: XD7R3WqgNjWLUTvpStt3hKaBif3f9OfT5Jlhk2LUnX2Y9verwXFwurvlyVhQlIBsqwC4YmzDCfUvW7Kh8m6aIhuJJnbzGkvQGmP+aC2VGz4M+5j/4uNa0Cml0OgEJK+hVtzULftgHf6DUA8M/kgKJFZIRTo6b4psKKdzzYkAiGfE7P+xM7OfHUuDmQITktjln/FATn3BxAlMt6V4rXIBA/7787utKIPIHlbSZLsm4w8rv5G8kRAK8SmhbmJFkjiBf7ASw9RRUAp5Q8tcX2ZEQ+2zkXOTzqmlOSmEHTNaB/czpumluP3EVFbodo27UijmoHfnGIQ4CZFeZu8nyXQ9ZPHoP0Pu72TebLfC+RjgpznU7Uq+NYtPeF0LyZfjBaFwAPeGAnXeEm1nrZgMjsp26YllIvtfvrlH+lfAWQmGm37v9YITDP5iERwiTUWS3AHwUdTY+JQffkuwQXLL401f4xiwW8Z7Lz1AVFv0ZkzsxnvPuMCY0pETW6c/1mgICgqGRHydl3GNvrtpF3/OkklGyncC8kupDQbvrdh6wwnKGY0KOx57OmdEhGw/KS3eTxnqZ+8LC8g0flCSggnUHf2KNVjHDINV0ojPHxK8X4VcB4VZSGOyuuYbCSLI4FRbBRIsxMYX2ZMff94bZHLCSAZp+H+xrNIRtEOt2y62d4gr6Po=
-  app: peaceful-peak-22840
-  on:
-    repo: elimerrell/gnarnia-react
