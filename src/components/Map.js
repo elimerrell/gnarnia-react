@@ -15,6 +15,7 @@ class Map extends Component {
     return (
         <div>
           <div ref={el => this.mapContainer = el} className="map-container" />
+          <h2>Hello World</h2>
         </div>
     );
   }
