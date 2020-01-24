@@ -9,11 +9,11 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-1"
+  region: "us-west-1"
   app: "Gnarnia"
   env: "Gnarnia-env"
-  bucket_name: "elasticbeanstalk-us-east-1-721211733481"
-  bucket_path: ""
+  bucket_name: "elasticbeanstalk-us-west-1-923547548913"
+  bucket_path: "Gnarnia"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
